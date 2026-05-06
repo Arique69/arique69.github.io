@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Rizq Athariq — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">Arique</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <ul class="nav-mobile" id="navMobile">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Muhammad Rizq<br /><span class="accent">Athariq</span></h1>
+      <p class="hero-role"><span class="typed" id="typed"></span><span class="cursor">|</span></p>
+      <p class="hero-desc">
+        Passionate web developer with experience in ERP systems, building modern apps with Laravel, Python, and Astro.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-avatar">
+          <div class="avatar-ring">
+            <div class="avatar-inner">
+              <img src="https://avatars.githubusercontent.com/u/58097473?v=4" alt="Muhammad Rizq Athariq" class="avatar-photo" />
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            I'm a web developer with a genuine passion for building clean, functional digital experiences. My journey started in web development, grew through ERP system work, and has evolved into a love for modern frameworks and data-driven applications.
+          </p>
+          <p>
+            Currently exploring the Astro ecosystem while sharpening my Python data science skills. I enjoy bridging the gap between great design and solid engineering.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">8+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Tech Stacks</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Curiosity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Work <span class="accent">Experience</span></h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot timeline-dot--active"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">IT Staff</h3>
+                <p class="timeline-company">Amertec Eraplast</p>
+              </div>
+              <span class="timeline-badge timeline-badge--active">Current</span>
+            </div>
+            <p class="timeline-date">Apr 2026 — Present &nbsp;·&nbsp; On-site</p>
+            <p class="timeline-desc">Responsible for all IT operations across the office — managing infrastructure, hardware, and day-to-day technical support. Developing a Construction Dashboard to manage and track project activities end-to-end, including task management, project summary, S-Curve progress visualization, daily activity logs, and obstacle reporting. Also building the company's profile website to strengthen its digital presence and represent the brand professionally online.</p>
+            <div class="timeline-tags">
+              <span class="tag">IT Management</span>
+              <span class="tag">Construction Dashboard</span>
+              <span class="tag">S-Curve</span>
+              <span class="tag">Web Development</span>
+              <span class="tag">Company Profile</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">IT Staff</h3>
+                <p class="timeline-company">PT Retro Daya Engineering</p>
+              </div>
+              <span class="timeline-badge">Full-time</span>
+            </div>
+            <p class="timeline-date">May 2023 — Feb 2026 · 1 yr 10 mos &nbsp;·&nbsp; Ciracas, Jakarta</p>
+            <p class="timeline-desc">Assisted users in resolving hardware and software issues, ensuring smooth day-to-day operations. Developed and maintained the company's website and project management tools, enhancing productivity and collaboration. Managed company servers — overseeing security, reliability, and performance to support business continuity.</p>
+            <div class="timeline-tags">
+              <span class="tag">Web Development</span>
+              <span class="tag">Server Management</span>
+              <span class="tag">IT Support</span>
+              <span class="tag">ERP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Web Developer Intern</h3>
+                <p class="timeline-company">APRIL</p>
+              </div>
+              <span class="timeline-badge">Internship</span>
+            </div>
+            <p class="timeline-date">Jul 2021 — Aug 2021 · 2 mos &nbsp;·&nbsp; Pelalawan, Riau</p>
+            <p class="timeline-desc">Worked on web development tasks during internship, gaining hands-on experience building and maintaining web applications in a professional environment.</p>
+            <div class="timeline-tags">
+              <span class="tag">Web Development</span>
+              <span class="tag">PHP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Media Intern</h3>
+                <p class="timeline-company">Dinas Komunikasi dan Informatika</p>
+              </div>
+              <span class="timeline-badge">Internship</span>
+            </div>
+            <p class="timeline-date">Jan 2017 — Jun 2017 · 6 mos</p>
+            <p class="timeline-desc">Supported media and communications operations at the government's Department of Communication and Information Technology.</p>
+            <div class="timeline-tags">
+              <span class="tag">Media</span>
+              <span class="tag">Communications</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Tech <span class="accent">Stack</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 128 128"><path fill="#F55247" d="M64 8L8 40v48l56 32 56-32V40z"/><path fill="#fff" d="M64 20L20 44v36l44 24 44-24V44z"/></svg>
+          </div>
+          <h3>Laravel</h3>
+          <p>Full-stack web apps, REST APIs, MVC architecture, Eloquent ORM</p>
+          <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 128 128"><path fill="#3776AB" d="M49.33 62c-2.67 0-4.67.67-6 2s-2 3.33-2 6 .67 4.67 2 6 3.33 2 6 2h29.34c2.67 0 4.67-.67 6-2s2-3.33 2-6-.67-4.67-2-6-3.33-2-6-2H49.33z"/><path fill="#FFD43B" d="M64 8C33.07 8 8 33.07 8 64s25.07 56 56 56 56-25.07 56-56S94.93 8 64 8zm0 16c8.84 0 16 7.16 16 16s-7.16 16-16 16-16-7.16-16-16 7.16-16 16-16z"/></svg>
+          </div>
+          <h3>Python</h3>
+          <p>Data science, machine learning, data visualization, Jupyter notebooks</p>
+          <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 128 128"><path fill="#FF5D01" d="M64 8L8 120h112L64 8z"/><circle fill="#fff" cx="64" cy="82" r="18"/></svg>
+          </div>
+          <h3>Astro</h3>
+          <p>Static site generation, island architecture, modern web performance</p>
+          <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 128 128"><path fill="#4F5D95" d="M64 8C33.07 8 8 33.07 8 64s25.07 56 56 56 56-25.07 56-56S94.93 8 64 8z"/><path fill="#fff" d="M87 52H71v36h-8V52H47v-8h40z"/></svg>
+          </div>
+          <h3>PHP</h3>
+          <p>Server-side scripting, OOP, database integration</p>
+          <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 128 128"><path fill="#F7DF1E" d="M8 8h112v112H8z"/><path d="M66.04 98.44c1.56 2.6 3.6 4.52 7.2 4.52 3.04 0 4.96-1.52 4.96-3.6 0-2.52-2-3.4-5.32-4.88l-1.84-.78c-5.28-2.24-8.78-5.04-8.78-10.96 0-5.44 4.16-9.6 10.64-9.6 4.64 0 7.96 1.6 10.36 5.84l-5.68 3.64c-1.24-2.24-2.6-3.12-4.72-3.12-2.16 0-3.52 1.36-3.52 3.12 0 2.2 1.36 3.08 4.52 4.44l1.84.76c6.24 2.68 9.76 5.4 9.76 11.48 0 6.56-5.16 10.12-12.08 10.12-6.8 0-11.2-3.24-13.36-7.48l5.96-3.5zm-29.6.76c1.12 2 2.16 3.72 4.64 3.72 2.36 0 3.84-1 3.84-4.76V74h7.28v24.24c0 7.84-4.6 11.4-11.32 11.4-6.04 0-9.56-3.12-11.36-6.88l6.92-3.56z"/></svg>
+          </div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, async programming, REST API integration</p>
+          <div class="skill-bar"><div class="skill-fill" style="--w:72%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 128 128"><path fill="#E44D26" d="M19.12 116.4L8 8h112l-11.12 108.4L63.92 128z"/><path fill="#F16529" d="M64 119.68l36.68-10.16L109.2 21.6H64z"/><path fill="#EBEBEB" d="M64 66.56H43.72l-1.44-16.08H64V34.44H26.64l.4 4.36 4 44.76H64z"/><path fill="#fff" d="M64 95.68l-.08.04-18.44-5-1.16-13.12H28.44l2.32 25.84 33.2 9.2.04-.04z"/></svg>
+          </div>
+          <h3>HTML / CSS</h3>
+          <p>Semantic markup, responsive design, animations, Tailwind CSS</p>
+          <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 128 128"><path fill="#4DB33D" d="M64 8C33.07 8 8 33.07 8 64s25.07 56 56 56 56-25.07 56-56S94.93 8 64 8z"/><path fill="#fff" d="M47 88V40l48 24-48 24z"/></svg>
+          </div>
+          <h3>ERP Systems</h3>
+          <p>Business process automation, system integration, data management</p>
+          <div class="skill-bar"><div class="skill-fill" style="--w:65%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 128 128"><circle fill="#336791" cx="64" cy="64" r="56"/><path fill="#fff" d="M64 28c-19.88 0-36 7.16-36 16s16.12 16 36 16 36-7.16 36-16-16.12-16-36-16zm0 40c-14.36 0-28.08-3.12-36-8v8c0 8.84 16.12 16 36 16s36-7.16 36-16v-8c-7.92 4.88-21.64 8-36 8z"/></svg>
+          </div>
+          <h3>Database</h3>
+          <p>MySQL, PostgreSQL, database design, query optimization</p>
+          <div class="skill-bar"><div class="skill-fill" style="--w:78%"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">My <span class="accent">Projects</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-lang lang-astro">Astro</span>
+            <span class="project-private">Private</span>
+          </div>
+          <h3 class="project-name">Amertec Website</h3>
+          <p class="project-desc">Official company profile website for PT Amertec Eraplast — an integrated EPC (Engineering, Procurement & Construction) company operating since 1994, part of the ORI Group.</p>
+          <div class="project-tags">
+            <span class="tag">Astro v6</span>
+            <span class="tag">Bootstrap 5</span>
+            <span class="tag">AOS</span>
+            <span class="tag">Company Profile</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-lang lang-py">Python</span>
+            <span class="project-private">Private</span>
+          </div>
+          <h3 class="project-name">Printer Usage Monitor</h3>
+          <p class="project-desc">Web-based dashboard for monitoring Epson printer usage. Scrapes data directly from the printer's web interface, displays consumption per monthly period (21st–20th), and exports reports to Excel.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Web Scraping</span>
+            <span class="tag">Dashboard</span>
+            <span class="tag">Excel Export</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-lang lang-js">JavaScript</span>
+            <a href="https://github.com/Arique69/perpustakaan-pbo" target="_blank" class="project-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.61-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.7.115 2.5.337 1.909-1.29 2.747-1.02 2.747-1.02.546 1.372.202 2.386.1 2.636.64.7 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .269.18.579.688.481A10.019 10.019 0 0022 12c0-5.52-4.48-10-10-10z"/></svg>
+            </a>
+          </div>
+          <h3 class="project-name">Perpustakaan PBO</h3>
+          <p class="project-desc">Library management application built with object-oriented programming principles. Manages books, members, and lending records.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Web App</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-lang lang-css">CSS</span>
+            <a href="https://github.com/Arique69/TryO" target="_blank" class="project-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.61-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.7.115 2.5.337 1.909-1.29 2.747-1.02 2.747-1.02.546 1.372.202 2.386.1 2.636.64.7 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .269.18.579.688.481A10.019 10.019 0 0022 12c0-5.52-4.48-10-10-10z"/></svg>
+            </a>
+          </div>
+          <h3 class="project-name">TryO Website</h3>
+          <p class="project-desc">A website project with a focus on clean CSS design and layout. Demonstrates front-end skills and UI craftsmanship.</p>
+          <div class="project-tags">
+            <span class="tag">CSS</span>
+            <span class="tag">HTML</span>
+            <span class="tag">Frontend</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-lang lang-py">Python</span>
+            <a href="https://github.com/Arique69/tubes-visdat" target="_blank" class="project-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.61-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.7.115 2.5.337 1.909-1.29 2.747-1.02 2.747-1.02.546 1.372.202 2.386.1 2.636.64.7 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .269.18.579.688.481A10.019 10.019 0 0022 12c0-5.52-4.48-10-10-10z"/></svg>
+            </a>
+          </div>
+          <h3 class="project-name">Data Visualization</h3>
+          <p class="project-desc">Data visualization project exploring Python libraries for creating insightful charts and dashboards from real datasets.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Data Viz</span>
+            <span class="tag">Analytics</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-lang lang-nb">Jupyter</span>
+            <a href="https://github.com/Arique69/Tubes-Machine-Learning-2" target="_blank" class="project-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.61-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.7.115 2.5.337 1.909-1.29 2.747-1.02 2.747-1.02.546 1.372.202 2.386.1 2.636.64.7 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .269.18.579.688.481A10.019 10.019 0 0022 12c0-5.52-4.48-10-10-10z"/></svg>
+            </a>
+          </div>
+          <h3 class="project-name">Machine Learning</h3>
+          <p class="project-desc">ML project applying supervised learning algorithms, model evaluation, and feature engineering on structured datasets.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">ML</span>
+            <span class="tag">Scikit-learn</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-lang lang-php">PHP</span>
+            <a href="https://github.com/Arique69/Project_KP" target="_blank" class="project-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.61-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.7.115 2.5.337 1.909-1.29 2.747-1.02 2.747-1.02.546 1.372.202 2.386.1 2.636.64.7 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .269.18.579.688.481A10.019 10.019 0 0022 12c0-5.52-4.48-10-10-10z"/></svg>
+            </a>
+          </div>
+          <h3 class="project-name">KP Project</h3>
+          <p class="project-desc">Internship project built with PHP — a web application developed during a professional placement, covering real-world requirements.</p>
+          <div class="project-tags">
+            <span class="tag">PHP</span>
+            <span class="tag">Laravel</span>
+            <span class="tag">Web App</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-lang lang-js">JavaScript</span>
+            <a href="https://github.com/Arique69/bot-if4210" target="_blank" class="project-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.61-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.7.115 2.5.337 1.909-1.29 2.747-1.02 2.747-1.02.546 1.372.202 2.386.1 2.636.64.7 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .269.18.579.688.481A10.019 10.019 0 0022 12c0-5.52-4.48-10-10-10z"/></svg>
+            </a>
+          </div>
+          <h3 class="project-name">Discord Bot</h3>
+          <p class="project-desc">A Discord bot built for the IF4210 server — automates tasks, handles commands, and enhances community interaction.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">Discord.js</span>
+            <span class="tag">Bot</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="projects-more">
+        <a href="https://github.com/Arique69" target="_blank" class="btn btn-outline">
+          View All on GitHub
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.61-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.7.115 2.5.337 1.909-1.29 2.747-1.02 2.747-1.02.546 1.372.202 2.386.1 2.636.64.7 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .269.18.579.688.481A10.019 10.019 0 0022 12c0-5.52-4.48-10-10-10z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+      <p class="contact-sub">Have a project in mind or just want to say hi? My inbox is always open.</p>
+      <div class="contact-grid">
+        <a href="mailto:mhmdariq88@gmail.com" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+          </div>
+          <div>
+            <p class="contact-label">Email</p>
+            <p class="contact-value">mhmdariq88@gmail.com</p>
+          </div>
+        </a>
+        <a href="https://github.com/Arique69" target="_blank" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.61-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.7.115 2.5.337 1.909-1.29 2.747-1.02 2.747-1.02.546 1.372.202 2.386.1 2.636.64.7 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .269.18.579.688.481A10.019 10.019 0 0022 12c0-5.52-4.48-10-10-10z"/></svg>
+          </div>
+          <div>
+            <p class="contact-label">GitHub</p>
+            <p class="contact-value">github.com/Arique69</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Designed & Built by <span class="accent">Muhammad Rizq Athariq</span></p>
+    <p class="footer-copy">© 2025 — All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
