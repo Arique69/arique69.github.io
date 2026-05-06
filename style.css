@@ -561,6 +561,12 @@ section { padding: 100px 0; }
   letter-spacing: 1px;
   z-index: 1;
 }
+.project-preview--img {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.project-preview--img::before { display: none; }
 
 .project-card {
   background: var(--card);
