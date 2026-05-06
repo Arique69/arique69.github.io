@@ -531,6 +531,37 @@ section { padding: 100px 0; }
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1.5rem;
 }
+.project-preview {
+  height: 130px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--g1), var(--g2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+.project-preview::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(255,255,255,.03) 0px,
+    rgba(255,255,255,.03) 1px,
+    transparent 1px,
+    transparent 12px
+  );
+}
+.preview-label {
+  font-family: 'Fira Code', monospace;
+  font-size: .75rem;
+  color: rgba(255,255,255,.6);
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
 .project-card {
   background: var(--card);
   border: 1px solid var(--border);
