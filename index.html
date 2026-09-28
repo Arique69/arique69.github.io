@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" href="assets/Logo.png?v=2" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -40,7 +40,6 @@
   <!-- HERO -->
   <section id="hero">
     <div class="hero-bg">
-      <div class="grid-overlay"></div>
     </div>
     <div class="hero-content">
       <p class="hero-greeting">Hi, I'm</p>
@@ -111,7 +110,7 @@
               <span class="timeline-badge timeline-badge--active">Current</span>
             </div>
             <p class="timeline-date">Apr 2026 — Present &nbsp;·&nbsp; On-site</p>
-            <p class="timeline-desc">Responsible for all IT operations across the office — managing infrastructure, hardware, and day-to-day technical support. Developing a Construction Dashboard to manage and track project activities end-to-end, including task management, project summary, S-Curve progress visualization, daily activity logs, and obstacle reporting. Also building the company's profile website to strengthen its digital presence and represent the brand professionally online.</p>
+            <p class="timeline-desc">Responsible for all IT operations across the office, managing infrastructure, hardware, and day-to-day technical support. Developing a Construction Dashboard to manage and track project activities end-to-end, including task management, project summary, S-Curve progress visualization, daily activity logs, and obstacle reporting. Also building the company's profile website to strengthen its digital presence and represent the brand professionally online.</p>
             <div class="timeline-tags">
               <span class="tag">IT Management</span>
               <span class="tag">Construction Dashboard</span>
@@ -133,7 +132,7 @@
               <span class="timeline-badge">Full-time</span>
             </div>
             <p class="timeline-date">May 2023 — Feb 2026 · 1 yr 10 mos &nbsp;·&nbsp; Ciracas, Jakarta</p>
-            <p class="timeline-desc">Assisted users in resolving hardware and software issues, ensuring smooth day-to-day operations. Developed and maintained the company's website and project management tools, enhancing productivity and collaboration. Managed company servers — overseeing security, reliability, and performance to support business continuity.</p>
+            <p class="timeline-desc">Assisted users in resolving hardware and software issues, ensuring smooth day-to-day operations. Developed and maintained the company's website and project management tools, enhancing productivity and collaboration. Managed company servers, overseeing security, reliability, and performance to support business continuity.</p>
             <div class="timeline-tags">
               <span class="tag">Web Development</span>
               <span class="tag">Server Management</span>
@@ -277,15 +276,34 @@
           <div class="project-preview project-preview--img" style="background-image: url('assets/Amertec.png')"></div>
           <div class="project-top">
             <span class="project-lang lang-astro">Astro</span>
-            <span class="project-private">Private</span>
+            <a href="https://amertec.co.id" target="_blank" rel="noopener" class="project-link" aria-label="Live site">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </a>
           </div>
           <h3 class="project-name">Amertec Website</h3>
-          <p class="project-desc">Official company profile website for PT Amertec Eraplast — an integrated EPC (Engineering, Procurement & Construction) company operating since 1994, part of the ORI Group.</p>
+          <p class="project-desc">Official company profile website for PT Amertec Eraplast, an integrated EPC (Engineering, Procurement & Construction) company operating since 1994, part of the ORI Group.</p>
           <div class="project-tags">
             <span class="tag">Astro v6</span>
             <span class="tag">Bootstrap 5</span>
             <span class="tag">AOS</span>
             <span class="tag">Company Profile</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-preview project-preview--img" style="background-image: url('assets/Career.png')"></div>
+          <div class="project-top">
+            <span class="project-lang lang-astro">Astro</span>
+            <a href="https://career.amertec.co.id" target="_blank" rel="noopener" class="project-link" aria-label="Live site">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </a>
+          </div>
+          <h3 class="project-name">Career Amertec</h3>
+          <p class="project-desc">Careers portal for PT Amertec Eraplast that showcases open positions and lets candidates explore and apply for jobs at the company.</p>
+          <div class="project-tags">
+            <span class="tag">Astro</span>
+            <span class="tag">Careers Portal</span>
+            <span class="tag">Job Listings</span>
           </div>
         </div>
 
@@ -410,7 +428,7 @@
             </a>
           </div>
           <h3 class="project-name">KP Project</h3>
-          <p class="project-desc">Internship project built with PHP — a web application developed during a professional placement, covering real-world requirements.</p>
+          <p class="project-desc">Internship project built with PHP. A web application developed during a professional placement, covering real-world requirements.</p>
           <div class="project-tags">
             <span class="tag">PHP</span>
             <span class="tag">Laravel</span>
@@ -429,7 +447,7 @@
             </a>
           </div>
           <h3 class="project-name">Discord Bot</h3>
-          <p class="project-desc">A Discord bot built for the IF4210 server — automates tasks, handles commands, and enhances community interaction.</p>
+          <p class="project-desc">A Discord bot built for the IF4210 server that automates tasks, handles commands, and enhances community interaction.</p>
           <div class="project-tags">
             <span class="tag">JavaScript</span>
             <span class="tag">Discord.js</span>
