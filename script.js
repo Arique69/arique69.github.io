@@ -4,7 +4,6 @@ const roles = [
   'Laravel Engineer',
   'Python Data Scientist',
   'Astro Enthusiast',
-  'ERP Developer',
 ];
 
 let roleIdx = 0, charIdx = 0, isDeleting = false;
@@ -46,27 +45,23 @@ window.addEventListener('scroll', () => {
 const hamburger = document.getElementById('hamburger');
 const navMobile = document.getElementById('navMobile');
 hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('open');
-  navMobile.classList.toggle('open');
+  const open = navMobile.classList.toggle('open');
+  hamburger.classList.toggle('open', open);
+  hamburger.setAttribute('aria-expanded', open);
 });
 navMobile.querySelectorAll('a').forEach(a => {
   a.addEventListener('click', () => {
     hamburger.classList.remove('open');
     navMobile.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', false);
   });
 });
 
-// Intersection Observer — reveal + skill bars
+// Intersection Observer: reveal on scroll
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (!entry.isIntersecting) return;
     entry.target.classList.add('visible');
-
-    // animate skill bars inside this element
-    entry.target.querySelectorAll('.skill-fill').forEach(bar => {
-      bar.classList.add('animated');
-    });
-
     observer.unobserve(entry.target);
   });
 }, { threshold: 0.12 });
@@ -85,6 +80,6 @@ window.addEventListener('scroll', () => {
     if (window.scrollY >= sec.offsetTop - 100) current = sec.id;
   });
   navLinks.forEach(a => {
-    a.style.color = a.getAttribute('href') === `#${current}` ? 'var(--white)' : '';
+    a.style.color = a.getAttribute('href') === `#${current}` ? 'var(--accent2)' : '';
   });
 });

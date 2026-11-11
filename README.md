@@ -7,16 +7,16 @@ Personal portfolio website built with vanilla HTML, CSS, and JavaScript.
 ## Stack
 
 - HTML5, CSS3, JavaScript (no frameworks)
-- Google Fonts — Inter + Fira Code
+- Google Fonts: Sora + Fira Code
 
 ## Sections
 
 - **Hero** — animated typing effect
 - **About** — bio and stats
 - **Experience** — work history timeline
-- **Skills** — tech stack with animated progress bars
+- **Skills** — tech stack with logos
 - **Projects** — public & private project cards
-- **Contact** — email and GitHub links
+- **Contact** — email, GitHub, Instagram, X
 
 ## Local Development
 
